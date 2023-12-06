@@ -1,0 +1,44 @@
+td, th {
+    border: 2px solid black;
+    padding: 20px;
+}
+table { 
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th:nth-child(1) {
+    background-color: rgb(238, 60, 60);
+}
+th:nth-child(2) {
+    background-color: yellow;
+}
+th:nth-child(3) {
+    background-color: greenyellow;
+}
+th:nth-child(4) {
+    background-color: orange
+}
+th:nth-child(5) {
+    background-color: rgb(96, 169, 194)
+}
+.days:hover {
+    opacity: 0.7;
+    transition-duration: 0.8s;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+.footer {
+    text-align: center;
+}
+a:hover {
+    text-decoration-line: none;
+}
+a:visited {
+    color:red;
+    text-decoration-line:none;
+}
+a:link {
+    cursor: cell;
+}
+
